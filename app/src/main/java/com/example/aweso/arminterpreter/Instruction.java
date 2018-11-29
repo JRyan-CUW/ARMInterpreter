@@ -73,6 +73,7 @@ public class Instruction
             int baseAddressValue = baseRegister.getValue();
             int finalMemoryBucket = baseAddressValue + offset;
             destinationRegister.setValue(ARMap.memory[finalMemoryBucket]);
+            //test
         }
     }
 }
